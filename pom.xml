@@ -8,6 +8,7 @@
     <module>service</module>
     <module>api</module>
       <module>client</module>
+    <module>baseapi</module>
   </modules>
 
   <repositories>
