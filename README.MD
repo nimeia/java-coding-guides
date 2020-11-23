@@ -18,14 +18,12 @@
 ### IDE 建议
 
 - 后端IDE 建议统一使用 [idea](https://www.jetbrains.com/idea/) 
-- 前端IDE建议统一使用vscode
+- 前端IDE建议统一使用 [vscode](https://code.visualstudio.com/)
 - 其它 [eclipse](http://eclipse.org/) [webstorm](https://www.jetbrains.com/webstorm/)
 
 ### EditorConfig
 
 ​	[EditorConfig](https://editorconfig.org/)  可以帮助开发从员统一代码的编码格式与提供各种IDE开发环境的集成，建议使用。
-
-
 
 ### 阅读入口
 
