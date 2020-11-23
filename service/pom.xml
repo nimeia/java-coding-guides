@@ -19,14 +19,6 @@
 
     <artifactId>service</artifactId>
 
-    <properties>
-        <maven.compiler.source>13</maven.compiler.source>
-        <maven.compiler.targer>13</maven.compiler.targer>
-        <maven.compiler.release>13</maven.compiler.release>
-        <maven.compiler.encoding>utf-8</maven.compiler.encoding>
-        <java.version>13</java.version>
-    </properties>
-
     <dependencies>
 
         <!-- 系统内的引用放最前面-->

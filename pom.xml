@@ -5,11 +5,19 @@
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <modules>
-    <module>service</module>
-    <module>api</module>
-      <module>client</module>
     <module>baseapi</module>
+    <module>api</module>
+    <module>client</module>
+    <module>service</module>
   </modules>
+
+  <properties>
+    <maven.compiler.source>13</maven.compiler.source>
+    <maven.compiler.target>13</maven.compiler.target>
+    <maven.compiler.release>13</maven.compiler.release>
+    <maven.compiler.encoding>utf-8</maven.compiler.encoding>
+    <java.version>13</java.version>
+  </properties>
 
   <repositories>
     <repository>
