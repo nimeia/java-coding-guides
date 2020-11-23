@@ -342,12 +342,20 @@ public class ShowCodeDemo {
         Integer allSum = xyzSum + x + y + z + i + j + k;
         return allSum;
     }
-
-
 }
 ```
 
+- `SomeUtils.java` 工具类的一些编码约束
 
+- `DemoException.java` 异常类的一些编码约束
+
+- `User.java` POJO的一些编码约束
+
+- `OrderTypeEnum.java` ENUM的一引起编码约束
+
+- `UserApiImpl.java` 接口实现例子
+
+  
 
 ## 其它说明
 
