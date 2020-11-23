@@ -33,7 +33,7 @@
         <dependency>
             <groupId>test.code</groupId>
             <artifactId>api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <!--其它的按分类放在一起，不同的分类用空行隔开-->
