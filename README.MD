@@ -73,7 +73,9 @@ private static final Logger logger = LoggerFactory.getLogger(ShowCodeDemo.class)
 
 ### 阅读入口
 
-开发人员请先从 `ShowCodeDemo.java` 开始阅读， 例如 ，请注意以该类为准，而不是本文档中的代码片段，因为具体类原随着时间更新
+开发人员请先从 `ShowCodeDemo.java` 开始阅读，
+
+例如 ，请注意以该类为准，而不是本文档中的代码片段，因为具体类原随着时间更新
 
 ```java
 /*

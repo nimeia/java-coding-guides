@@ -26,5 +26,13 @@
         <java.version>8</java.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>test.code</groupId>
+            <artifactId>baseapi</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
