@@ -10,6 +10,7 @@
         <module>api</module>
         <module>client</module>
         <module>app-server</module>
+        <module>app-web</module>
     </modules>
 
     <properties>
