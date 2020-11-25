@@ -1,29 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>test.code</groupId>
-  <artifactId>guides</artifactId>
-  <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <modules>
-    <module>baseapi</module>
-    <module>api</module>
-    <module>client</module>
-    <module>service</module>
-  </modules>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>test.code</groupId>
+    <artifactId>guides</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>baseapi</module>
+        <module>api</module>
+        <module>client</module>
+        <module>service</module>
+    </modules>
 
-  <properties>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
-    <maven.compiler.release>8</maven.compiler.release>
-    <maven.compiler.encoding>utf-8</maven.compiler.encoding>
-    <java.version>8</java.version>
-  </properties>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.encoding>utf-8</maven.compiler.encoding>
+        <java.version>8</java.version>
+    </properties>
 
-  <repositories>
-    <repository>
-      <id>nexus-tencentyun</id>
-      <name>Nexus tencentyun</name>
-      <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
-    </repository>
-  </repositories>
+    <repositories>
+        <repository>
+            <id>nexus-tencentyun</id>
+            <name>Nexus tencentyun</name>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </repository>
+    </repositories>
 </project>
