@@ -19,5 +19,28 @@
 
     <artifactId>admin</artifactId>
 
+    <dependencies>
+        <!-- tip: 项目内的引用放最前面-->
+        <dependency>
+            <groupId>test.code</groupId>
+            <artifactId>service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!-- tip:只有在需要打包成 runable jar 时使用-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

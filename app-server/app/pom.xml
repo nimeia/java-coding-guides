@@ -19,5 +19,12 @@
 
     <artifactId>app</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>test.code</groupId>
+            <artifactId>service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
