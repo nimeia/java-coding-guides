@@ -25,7 +25,9 @@
 
 ### EditorConfig
 
-[EditorConfig](https://editorconfig.org/)  可以帮助开发从员统一代码的编码格式与提供各种IDE开发环境的集成，建议使用。[使用说明](EditConfig.MD)
+ 可以帮助开发从员统一代码的编码格式与提供各种IDE开发环境的集成，建议使用。
+
+[使用说明](EditConfig.MD)
 
 ### gitIgnore
 
