@@ -27,7 +27,7 @@
 
 ### .gitIgnore
 
-
+​    [使用说明](GitIgnore.MD)
 
 ### 一般项目组织结构
 

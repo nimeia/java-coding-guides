@@ -58,7 +58,7 @@ git add -f node_modules/jquery/dist/jquery.min.js
 git rm --cached test.js 
 ```
 
-**.gitignore忽略规则的优先级**
+### **.gitignore忽略规则的优先级**
 
 ```properties
 在 .gitingore 文件中，每一行指定一个忽略规则，Git检查忽略规则的时候有多个来源，它的优先级如下（由高到低）：
@@ -69,7 +69,7 @@ git rm --cached test.js
 5、core.excludesfile中定义的全局规则
 ```
 
-**.gitignore忽略规则的匹配语法**
+### **.gitignore忽略规则的匹配语法**
 
 ```properties
 在 .gitignore 文件中，每一行的忽略规则的语法如下：
