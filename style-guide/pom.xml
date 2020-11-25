@@ -25,7 +25,6 @@
     </properties>
 
     <dependencies>
-
         <!-- 系统内的引用放最前面-->
         <dependency>
             <groupId>test.code</groupId>
@@ -45,7 +44,13 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.73</version>
         </dependency>
-
-
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>nexus-tencentyun</id>
+            <name>Nexus tencentyun</name>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </repository>
+    </repositories>
 </project>

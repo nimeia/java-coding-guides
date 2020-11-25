@@ -35,28 +35,11 @@
         <java.version>8</java.version>
     </properties>
 
-    <dependencies>
-
-        <!-- 系统内的引用放最前面-->
-        <dependency>
-            <groupId>test.code</groupId>
-            <artifactId>api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
-        <!--其它的按分类放在一起，不同的分类用空行隔开-->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.73</version>
-        </dependency>
-
-
-    </dependencies>
+    <repositories>
+        <repository>
+            <id>nexus-tencentyun</id>
+            <name>Nexus tencentyun</name>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </repository>
+    </repositories>
 </project>

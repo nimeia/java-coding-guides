@@ -23,4 +23,11 @@
         <java.version>8</java.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>nexus-tencentyun</id>
+            <name>Nexus tencentyun</name>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        </repository>
+    </repositories>
 </project>
