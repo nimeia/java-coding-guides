@@ -11,6 +11,7 @@
         <module>client</module>
         <module>app-server</module>
         <module>app-web</module>
+        <module>style-guide</module>
     </modules>
 
     <properties>
