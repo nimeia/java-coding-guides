@@ -1,2 +1,13 @@
 server:
   port: 8080 # tip:一个项目中有多个可运行应用时，先设置好各个模块的端口，以免冲突
+
+spring:
+  h2:
+    console:
+      path: /h2
+      enabled: true
+
+  datasource:
+    url: jdbc:h2:~/style-guide;AUTO_SERVER=TRUE
+    username: sa
+    password: sa

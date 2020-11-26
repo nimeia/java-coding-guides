@@ -39,13 +39,5 @@
         </dependency>
     </dependencies>
 
-    <!-- tip:只有在需要打包成 runable jar 时使用-->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
