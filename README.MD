@@ -42,7 +42,7 @@
 
 [使用说明](CheckStyle.MD)
 
-### SonarList
+### SonarLint
 
 [使用说明](SonarLint.MD)
 

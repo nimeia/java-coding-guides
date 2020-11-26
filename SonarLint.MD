@@ -1,4 +1,4 @@
-# SonarList 使用说明
+# SonarLint 使用说明
 
 [toc]
 
