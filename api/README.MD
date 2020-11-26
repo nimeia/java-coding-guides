@@ -22,10 +22,10 @@
 
 | URL                          | Java Method | HTTP Method | 说明                                |
 | ---------------------------- | ----------- | ----------- | ----------------------------------- |
-| /create                      | create()    | POST        | 新增对象（深度）                    |
-| /update                      | update()    | POST        | 更新对象（深度）                    |
-| /select/{id}                 | select()    | GET         | 获取数据（深度）                    |
-| /delete/{ids}                | delete()    | POST        | 删除对象(ids中间用逗号分隔)（深度） |
+| /make                        | make()    | POST        | 新增对象（深度）                    |
+| /renew                      | renew()    | POST        | 更新对象（深度）                    |
+| /find/{id}                 | find()    | GET         | 获取数据（深度）                    |
+| /remove/{ids}                | remove()    | POST        | 删除对象(ids中间用逗号分隔)（深度） |
 | /search?fieldName=fieldValue | search()    | POST        |                                     |
 
 ###  类编程规范
