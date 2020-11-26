@@ -30,10 +30,9 @@
 
 ###  类编程规范
 
-1. `Api`类必须继承ins.framework.web.action.BaseApi类
-2. 在WEB层类不允许用“new”关键字创建业务层和持久层类对象。
-3. 在WEB层类不允许出现与SQL语句相关的代码，不允许调用任何类拼写SQL语句。
-4.  WEB层类需要使用如下注解进行装在和标记访问地址。
+1. 在WEB层类不允许用“new”关键字创建业务层和持久层类对象。
+2. 在WEB层类不允许出现与SQL语句相关的代码，不允许调用任何类拼写SQL语句。
+3.  WEB层类需要使用如下注解进行装在和标记访问地址。
 
 > @RestController  @RequestMapping("/XXX")    
 
