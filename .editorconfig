@@ -35,7 +35,7 @@ charset = utf-8
 # ij_css_value_alignment = do_not_align
 
 [*.java]
-end_of_line = cr
+end_of_line = lf
 insert_final_newline = true
 # ij_java_align_consecutive_assignments = false
 # ij_java_align_consecutive_variable_declarations = false
