@@ -32,31 +32,31 @@
 
  可以帮助开发从员统一代码的编码格式与提供各种IDE开发环境的集成，建议使用。
 
-[使用说明](EditConfig.MD)
+[使用说明](editconfig.md)
 
 ### gitIgnore
 
-[使用说明](GitIgnore.MD)
+[使用说明](gitignore.md)
 
 ### CheckStyle
 
-[使用说明](CheckStyle.MD)
+[使用说明](checkstyle.md)
 
 ### SonarLint
 
-[使用说明](SonarLint.MD)
+[使用说明](sonarlint.md)
 
 ### ALI p3c
 
-[使用说明](p3c.MD)
+[使用说明](p3c.md)
 
 ## 项目结构
 
-[使用说明](ProjectStruts.MD)
+[使用说明](projectstruts.md)
 
 ## 接口规范
 
-[使用说明](api/README.MD)
+[使用说明](api/readme.md)
 
 ## 开始阅读
 
